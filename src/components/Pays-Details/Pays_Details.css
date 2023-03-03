@@ -1,0 +1,78 @@
+.Pays_details{
+    margin: 15px auto 0;
+    padding: 15px;
+    max-width: 1400px;
+    min-height: 100vh;
+}
+.Pays_details.darkmode{
+    background-color: black;
+    color: white;
+}
+.back {
+    background-color: white;
+    border: 0;
+    outline: 0;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.2);
+    margin-bottom: 25px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.back.darkmode {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.Pays_details_body{
+    margin: 15px auto 0;
+    padding: 15px;
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.img_container{
+    flex: 0.5;
+}
+.img_container img{
+    width: 100%;
+    object-fit: cover;
+}
+.info{
+    flex: 0.5;
+}
+.info.darkmode{
+    color: white;
+}
+.info_container{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    align-items: center;
+    margin-bottom: 45px;
+
+}
+.info h2{
+    margin-bottom: 15px;
+}
+.info .values{
+    color: grey;
+}
+.border-Pays{
+    padding:  5px 10px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.2);
+}
+.border-Pays.darkmode{
+    background-color: black;
+    color: white;
+}

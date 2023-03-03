@@ -1,0 +1,25 @@
+.header{
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0px 3px 15px rgb(0, 0, 0, 0.2);
+}
+.header.darkmode{
+    background-color: black;
+    color: white;
+}
+.header_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.switch_mode{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    cursor: pointer;
+    user-select: none;
+}
