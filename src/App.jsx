@@ -20,7 +20,7 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Pays darkMode={darkMode}/>} />
-        <Route path='/Pays-details' element={<Pays_Details darkMode={darkMode}/>}/>
+        <Route path='/pays-details/:alpha3code' element={<Pays_Details darkMode={darkMode}/>}/>
       </Routes>
       
     </div>
