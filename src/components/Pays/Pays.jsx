@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react'
 import "./Pays.css"
 import Pays_Details from '../Pays-Details/Pays_Details'
 import { useNavigate } from 'react-router-dom'
-import axios from 'axios'
 const Pays = ({darkMode}) => {
     const [pays, setPays] = useState([])
     const [selectedRegion, setSelectedRegion] = useState('');
